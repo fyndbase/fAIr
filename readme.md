@@ -22,7 +22,7 @@ Identifies typos in a snapshot (png/jpg) and draws a red border around each of t
 
 ---
 
-## Steps
+## Steps to run the program
 
 1. Open the project folder named **fAIr** (your cloned repo directory on the PC) using a code editor/IDE.
 
