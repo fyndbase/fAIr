@@ -1,8 +1,15 @@
 #!/bin/bash
 
-rm -rf ./data-directory/*
-mkdir data-directory
-mkdir ./data-directory/extracted/ ./data-directory/cleaned/ ./data-directory/spell-checked/ ./data-directory/final/
+DIR="data-directory"
+if [ -d "$DIR" ];
+then
+    rm -rf data-directory
+    mkdir data-directory
+else
+	mkdir data-directory
+fi
+
+mkdir data-directory/{extracted,cleaned,spell-checked,final}
 
 python3 src/word-extract.py
 python3 src/clean-extract.py
