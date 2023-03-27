@@ -24,7 +24,7 @@ Identifies typos in a snapshot (png/jpg) and draws a red border around each of t
 
 ## Steps
 
-1. Open the project folder named **fAIr** (your cloned repo directory on the PC) using a code editor/IDE (say VS Code).
+1. Open the project folder named **fAIr** (your cloned repo directory on the PC) using a code editor/IDE.
 
 2. Put all you image files, preferably of high resolution, in the directory named **input** (present inside fAIr directory).
 
